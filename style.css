@@ -179,6 +179,7 @@ button {
   border: white;
   border-width: 2px;
   border-style: solid;
+  min-width: 100px;
 }
 
 .call-to-action div div h2,
