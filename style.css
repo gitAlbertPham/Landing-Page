@@ -144,8 +144,7 @@ button {
 
 .quote {
   background-color: #e5e7eb;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 100px 250px 100px 250px;
 }
 
 .inspiring-quote {
@@ -158,4 +157,31 @@ button {
   text-align: right;
   font-weight: 700;
   font-size: 25px;
+}
+
+.container {
+  background-color: #3882f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  gap: 100px;
+  color: white;
+  padding: 50px;
+}
+
+.call-to-action {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.call-to-action div button {
+  border: white;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.call-to-action div div h2,
+p {
+  margin: 0;
 }
